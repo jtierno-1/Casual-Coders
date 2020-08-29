@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Employer
+{
+   public static void main (String[] arg)
+   {
+   ArrayList <String> employer = new ArrayList <String>();
+
+   employer.add("google");
+   employer.add("facebook");
+   employer.add("fSI");
+
+   
+   for (String x : employer)
+   {
+   System.out.println(x);
+   }
+
+   
+   }
+}
